@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot Chat Interface</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image:url('../Images/1892755.jpeg');
+      margin: 20px;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 100%; /* Adjusted to occupy full width */
+      margin: 100 auto;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: row; /* Arrange children in a row */
+      align-items: center; /* Center content vertically */
+      justify-content: space-between; /* Space between children */
+    }
+    
+    .chat-container {
+      width: 400px; /* Adjusted width */
+      height: 600px; /* Adjusted height */
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
+    
+    .info-text 
+    {
+      width: 250px; 
+      padding: 50px;
+      text-align:justify;
+      color: rgb(249, 244, 244);
+      background-color: rgba(42, 100, 108, 0.8);
+      border-radius: 10px; 
+      box-shadow: 0 2px 50px rgba(0, 0, 0, 0.2); 
+      font-size: 16px; 
+      line-height: 1.5; 
+      margin: 200px;
+    }
+
+
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="chat-container">
+      <iframe
+      allow="microphone;"
+      width="400"
+      height="600"
+      src="https://console.dialogflow.com/api-client/demo/embedded/38fe2517-bfa0-41e1-a4ed-dfbb71bf7ce2">
+    </iframe>
+    </div>
+    
+    <div class="info-text">
+      The INFO-BOT(CHAT-BOT) using Dialogflow project aims to improve communication and information retrieval for the Information Science and Engineering (ISE) branch of Basaveshwar Engineering College (Autonomous) Bagalkote.
+    </div>
+  </div>
+<!--   
+  <script>
+    // Add your chatbot JavaScript logic here
+  </script> -->
+</body>
+</html>
